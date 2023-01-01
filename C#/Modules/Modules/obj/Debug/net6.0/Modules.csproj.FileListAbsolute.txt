@@ -1,0 +1,15 @@
+E:\ZOHO\C#\Modules\Modules\bin\Debug\net6.0\Modules.exe
+E:\ZOHO\C#\Modules\Modules\bin\Debug\net6.0\Modules.deps.json
+E:\ZOHO\C#\Modules\Modules\bin\Debug\net6.0\Modules.runtimeconfig.json
+E:\ZOHO\C#\Modules\Modules\bin\Debug\net6.0\Modules.dll
+E:\ZOHO\C#\Modules\Modules\bin\Debug\net6.0\Modules.pdb
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.csproj.AssemblyReference.cache
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.GeneratedMSBuildEditorConfig.editorconfig
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.AssemblyInfoInputs.cache
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.AssemblyInfo.cs
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.csproj.CoreCompileInputs.cache
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.dll
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\refint\Modules.dll
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.pdb
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\Modules.genruntimeconfig.cache
+E:\ZOHO\C#\Modules\Modules\obj\Debug\net6.0\ref\Modules.dll
