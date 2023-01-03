@@ -1,0 +1,1 @@
+E:\ZOHO\UWP\LearnApp\LearnApp\LearnApp.csproj;x86
