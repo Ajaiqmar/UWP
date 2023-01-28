@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="LearnApp.Excercise10.XAMLControlsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise10"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--
+        XAML COMTROLS
+    -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="CheckBox" FontSize="36" Margin="10,10,10,10"/>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="10,10,10,10">
+            <CheckBox Name="MyCheckBox" Content="Agree?" Checked="OnCheck" Unchecked="OnCheck" />
+            <TextBlock Name="CheckBoxResult" FontSize="24"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="1" Text="Radio Button" FontSize="36" Margin="10,10,10,10"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="10,10,10,10">
+            <RadioButton Content="Yes" GroupName="UserQueryGroup" Checked="OnRadioCheck" />
+            <RadioButton Content="No" GroupName="UserQueryGroup" Checked="OnRadioCheck" />
+            <TextBlock Name="RadioButtonResult" FontSize="24"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="2" Text="Combo Box" FontSize="36" Margin="10,10,10,10"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Margin="10,10,10,10">
+            <ComboBox Name="MyComboBox" SelectionChanged="OnSelect">
+                <ComboBox.Items>
+                    <ComboBoxItem Content="First"/>
+                    <ComboBoxItem Content="Second"/>
+                    <ComboBoxItem Content="Third"/>
+                </ComboBox.Items>
+            </ComboBox>
+            <TextBlock Name="ComboBoxResult" FontSize="24"/>
+        </StackPanel>
+
+
+        <TextBlock Text="ListBox" FontSize="36" Margin="10,10,10,10" Grid.Row="3"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" Margin="10,10,10,10">
+            <ListBox Name="MyListBox" SelectionMode="Multiple" SelectionChanged="OnSelectionChanged">
+                <ListBoxItem Content="First"/>
+                <ListBoxItem Content="Second"/>
+                <ListBoxItem Content="Third"/>
+            </ListBox>
+            <TextBlock Name="ListBoxResult" FontSize="24"/>
+        </StackPanel>
+
+        <TextBlock Text="Image" FontSize="36" Margin="10,10,10,10" Grid.Row="4"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="1" Margin="10,10,10,10">
+            <Image Source="assets/dummy.jfif" Stretch="Uniform" />
+        </StackPanel>
+
+        <TextBlock Grid.Row="5" Text="Toggle Button" FontSize="36" Margin="10,10,10,10"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1" Margin="10,10,10,10" VerticalAlignment="Top">
+            <ToggleButton Name="MyToggle" Content="Are you kay?" Click="OnToggle"/>
+            <TextBlock Name="ToggleButtonResult" FontSize="24" />
+        </StackPanel>
+
+        <TextBlock Grid.Row="6" Text="Toggle Switch" FontSize="36" Margin="10,10,10,10"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="6" Grid.Column="1" Margin="10,10,10,10" VerticalAlignment="Top">
+            <ToggleSwitch Name="MyToggleSwitch" Toggled="OnTap" />
+            <TextBlock Name="ToggleSwitchResult" FontSize="24" />
+        </StackPanel>
+    </Grid>
+</Page>

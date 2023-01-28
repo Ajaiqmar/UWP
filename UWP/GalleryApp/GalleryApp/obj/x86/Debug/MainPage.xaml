@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="GalleryApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalleryApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <local:ImagePanel Width="500" Height="500" VerticalAlignment="Top" HorizontalAlignment="Left">
+        <Ellipse Height="200" Width="200" Fill="Blue"/>
+    </local:ImagePanel>
+</Page>
+

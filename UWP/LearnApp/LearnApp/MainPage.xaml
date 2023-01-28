@@ -7,295 +7,75 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <!-- Loaded="Page_Loaded" -->
-
-    <!--
-        HELLO WORLD APPLICATION
-    
-        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock x:Name="HeaderBlock"  FontSize="48" HorizontalAlignment="Center">HELLO WORLD</TextBlock>
-            <Button FontSize="24" Margin="0,80,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="OnClick">Change Content</Button>
-        </Grid>
-    -->
-
-    <!-- 
-        CREATING BUTTON USING C# PROCEDURAL CODE RATHER THAN XAML
-        
-        <Grid x:Name="LayoutGrid">
-        
-        </Grid>
-    -->
-
-    <!--
-        LAYOUT ELEMENTS - GRID
-    
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="2*"/>
-                <RowDefinition Height="3*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="3*"/>
-            </Grid.ColumnDefinitions>
-
-            <Grid Background="Aqua" ></Grid>
-            <Grid Background="Beige" Grid.Column="1"></Grid>
-            <Grid Background="Black" Grid.Column="2"></Grid>
-            <Grid Background="Brown" Grid.Row="1"></Grid>
-            <Grid Background="Chartreuse" Grid.Row="1" Grid.Column="1" ></Grid>
-            <Grid Background="DarkCyan" Grid.Row="1" Grid.Column="2" ></Grid>
-            <Grid Background="DarkGoldenrod" Grid.Row="2"></Grid>
-            <Grid Background="DarkOrange" Grid.Row="2" Grid.Column="1"></Grid>
-            <Grid Background="Red" Grid.Row="2" Grid.Column="2"></Grid>
-        </Grid>
-    
-    -->
-
-    <!--
-        LAYOUT ELEMENTS - STACKPANEL
-        <StackPanel>
-            <TextBlock>1. AJAY KUMAR</TextBlock>
-            <TextBlock>2. ABINAYA KAMATCHI</TextBlock>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Margin="0,0,10,0">3. AARANYA</TextBlock>
-                <TextBlock>4. ARSHIT</TextBlock>
-            </StackPanel>
-        </StackPanel>
-    -->
-
-    <!--
-        LAUDABLE LAYOUT CHALLENGE
-    
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-            </Grid.ColumnDefinitions>
-
-            <TextBlock FontSize="48" Grid.ColumnSpan="2" Margin="10,10,10,10">ACME Sales Corp</TextBlock>
-            <TextBlock Grid.Row="1" VerticalAlignment="Bottom" Margin="10,10,10,10">First Name:</TextBlock>
-            <TextBlock Grid.Row="2" VerticalAlignment="Bottom" Margin="10,10,10,10">Last Name:</TextBlock>
-            <TextBlock Grid.Row="3" VerticalAlignment="Bottom" Margin="10,10,10,10">Email:</TextBlock>
-
-            <TextBox Grid.Row="1" Grid.Column="1" Margin="10,10,10,10"/>
-            <TextBox Grid.Row="2" Grid.Column="1" Margin="10,10,10,10"/>
-            <TextBox Grid.Row="3" Grid.Column="1" Margin="10,10,10,10"/>
-
-            <Button Grid.Row="4" Grid.Column="1" Content="Save" Margin="10,10,10,10"/>
-        </Grid>
-    -->
-
-    <!--
-        LEGENDARY LAYOUT CHALLENGE
-    
-        <StackPanel>
-            <TextBlock FontSize="48" Text="Lorem Ipsum" Margin="10,10,10,10"/>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Width="250" TextWrapping="Wrap" Margin="10,10,10,10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Scelerisque eu ultrices vitae auctor eu. 
-                Facilisis leo vel fringilla est ullamcorper. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. 
-                Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquam ultrices sagittis orci a scelerisque. 
-                Augue interdum velit euismod in pellentesque massa. Ac ut consequat semper viverra nam libero justo laoreet. Praesent elementum facilisis leo vel. 
-                Nibh tellus molestie nunc non blandit massa. Bibendum ut tristique et egestas quis ipsum. 
-                Amet purus gravida quis blandit turpis cursus in hac. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.
-                A arcu cursus vitae congue mauris rhoncus aenean vel elit. Feugiat in ante metus dictum at tempor. Ipsum suspendisse ultrices gravida dictum. 
-                Integer vitae justo eget magna fermentum iaculis eu. Laoreet non curabitur gravida arcu ac tortor dignissim convallis. 
-                Lorem sed risus ultricies tristique nulla aliquet enim. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. 
-                Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Ut tellus elementum sagittis vitae et leo duis. 
-                Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. 
-                Diam phasellus vestibulum lorem sed risus ultricies. Et netus et malesuada fames ac turpis egestas. Venenatis cras sed felis eget velit. 
-                Aliquet bibendum enim facilisis gravida neque convallis.
-                </TextBlock>
-                <TextBlock Width="500" TextWrapping="Wrap" Margin="10,10,10,10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Scelerisque eu ultrices vitae auctor eu. 
-                Facilisis leo vel fringilla est ullamcorper. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. 
-                Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Aliquam ultrices sagittis orci a scelerisque. 
-                Augue interdum velit euismod in pellentesque massa. Ac ut consequat semper viverra nam libero justo laoreet. Praesent elementum facilisis leo vel. 
-                Nibh tellus molestie nunc non blandit massa. Bibendum ut tristique et egestas quis ipsum. 
-                Amet purus gravida quis blandit turpis cursus in hac. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.
-                A arcu cursus vitae congue mauris rhoncus aenean vel elit. Feugiat in ante metus dictum at tempor. Ipsum suspendisse ultrices gravida dictum. 
-                Integer vitae justo eget magna fermentum iaculis eu. Laoreet non curabitur gravida arcu ac tortor dignissim convallis. 
-                Lorem sed risus ultricies tristique nulla aliquet enim. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. 
-                Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Ut tellus elementum sagittis vitae et leo duis. 
-                Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus. 
-                Diam phasellus vestibulum lorem sed risus ultricies. Et netus et malesuada fames ac turpis egestas. Venenatis cras sed felis eget velit. 
-                Aliquet bibendum enim facilisis gravida neque convallis.
-                </TextBlock>
-                <StackPanel Width="300" Margin="10,10,10,10" Orientation="Horizontal">
-                    <Rectangle Height="200" Width="200" Fill="Blue" VerticalAlignment="Top"/>
-                    <StackPanel>
-                        <Rectangle Height="100" Width="100" Fill="Red"/>
-                        <Rectangle Height="100" Width="100" Fill="Yellow"/>
-                    </StackPanel>
-                </StackPanel>
-            </StackPanel>
-        </StackPanel>
-    -->
-
-    <!--
-        LABORIOUS LAYOUT CHALLENGE
-    
-        <Grid Width="500" HorizontalAlignment="Left">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="3*"/>
-            </Grid.ColumnDefinitions>
-
-            <TextBlock Text="Title 1" FontSize="24" Margin="10,10,10,10"/>
-            <TextBlock Text="Title 2" FontSize="24" Grid.Row="2" Margin="10,10,10,10"/>
-            <TextBlock Text="Title 3" FontSize="24" Grid.Row="4" Margin="10,10,10,10"/>
-            <StackPanel Grid.Row="1" Grid.Column="1">
-                <TextBlock TextWrapping="Wrap">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Id neque aliquam vestibulum morbi blandit. 
-                    Feugiat nisl pretium fusce id. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.
-                    Scelerisque felis imperdiet proin fermentum leo vel. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. 
-                    A scelerisque purus semper eget duis. Amet dictum sit amet justo donec enim diam. In dictum non consectetur a erat. 
-                </TextBlock>
-                <StackPanel Orientation="Horizontal">
-                    <Rectangle Fill="Green" Height="30" Width="100"/>
-                    <Rectangle Fill="Black" Height="30" Width="100"/>
-                    <Rectangle Fill="Red" Height="30" Width="100"/>
-                </StackPanel>
-            </StackPanel>
-            <StackPanel Grid.Row="3" Grid.Column="1">
-                <TextBlock TextWrapping="Wrap">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Id neque aliquam vestibulum morbi blandit. 
-                    Feugiat nisl pretium fusce id. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.
-                    Scelerisque felis imperdiet proin fermentum leo vel. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. 
-                    A scelerisque purus semper eget duis. Amet dictum sit amet justo donec enim diam. In dictum non consectetur a erat. 
-                </TextBlock>
-                <StackPanel Orientation="Horizontal">
-                    <Rectangle Fill="Red" Height="30" Width="100"/>
-                    <Rectangle Fill="Black" Height="30" Width="100"/>
-                    <Rectangle Fill="Blue" Height="30" Width="100"/>
-                </StackPanel>
-            </StackPanel>
-            <StackPanel Grid.Row="5" Grid.Column="1">
-                <TextBlock TextWrapping="Wrap">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Id neque aliquam vestibulum morbi blandit. 
-                    Feugiat nisl pretium fusce id. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.
-                    Scelerisque felis imperdiet proin fermentum leo vel. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. 
-                    A scelerisque purus semper eget duis. Amet dictum sit amet justo donec enim diam. In dictum non consectetur a erat. 
-                </TextBlock>
-                <StackPanel Orientation="Horizontal">
-                    <Rectangle Fill="Blue" Height="30" Width="100"/>
-                    <Rectangle Fill="Black" Height="30" Width="100"/>
-                    <Rectangle Fill="Yellow" Height="30" Width="100"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
-    -->
-    
-    <!-- 
-        RELATIVE PANEL
-    
-        <Grid>
-            <RelativePanel>
-                TITLE
-                <TextBlock Name="Header" FontSize="48" FontWeight="Bold" Text="Title" RelativePanel.AlignLeftWithPanel="True" Margin="20,10,0,0"/>
-                
-                SEARCH BAR
-                <Button Name="SearchButton" Content="Search" FontSize="24" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignVerticalCenterWith="Header" Margin="0,10,20,0"/>
-                <TextBox Name="SearchBox" FontSize="24" MinWidth="200" RelativePanel.AlignVerticalCenterWith="Header" RelativePanel.LeftOf="SearchButton" Margin="20,10,20,0"/>
-                <TextBlock Text="Search:" FontSize="24" RelativePanel.AlignVerticalCenterWith="Header" RelativePanel.LeftOf="SearchBox" Margin="0,10,0,0"/>
-                
-                FOOTER BAR
-                <Grid RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True"  Background="#FFA2A2A2" Padding="5,5,5,5" BorderThickness="3" BorderBrush="#Feb2A2A2">
-                    <RelativePanel>
-                        <TextBlock Text="Items: 10" FontSize="24" RelativePanel.AlignLeftWithPanel="True"/>
-                        <TextBlock Text="Version: 1.0.0" FontSize="24" RelativePanel.AlignRightWithPanel="True"/>
-                        <TextBlock Text="User: Bob" FontSize="24" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
-                    </RelativePanel>
-                </Grid>
-            </RelativePanel>
-        </Grid>
-    -->
-
-    <!--
-        SPLIT PANEL
-    
-        <Grid Margin="10,10,10,10">
-            <SplitView x:Name="MySpliView" DisplayMode="Inline">
-                <SplitView.Pane>
-                    <StackPanel>
-                        <TextBlock Text="AJAY KUMAR T M" FontSize="24"/>
-                        <TextBlock Text="DINESH P N" FontSize="24"/>
-                        <TextBlock Text="DEVI PRASAD S M" FontSize="24"/>
-                        <TextBlock Text="DINESH K" FontSize="24"/>
-                        <TextBlock Text="BHARATH T" FontSize="24"/>
-                    </StackPanel>
-                </SplitView.Pane>
-                <SplitView.Content>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="WHO IS THE THIEF?" FontSize="24"/>
-                        <Button Content="REVEAL" Click="OnClick" FontSize="16" VerticalAlignment="Top" Margin="10,0,0,0"/>
-                    </StackPanel>
-                </SplitView.Content>
-            </SplitView>
-        </Grid>
-    -->
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="Black"/>
+                    <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="White"/>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+            <Style TargetType="Button" x:Name="ExcerciseButton">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="Height" Value="50"/>
+                <Setter Property="Width" Value="50"/>
+                <Setter Property="CornerRadius" Value="50"/>
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
 
-        <TextBlock Text="CheckBox" FontSize="36" Margin="10,10,10,10"/>
-        <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="10,10,10,10">
-            <CheckBox Name="MyCheckBox" Content="Agree?" Checked="OnCheck" Unchecked="OnCheck" />
-            <TextBlock Name="CheckBoxResult" FontSize="24"/>
-        </StackPanel>
-
-        <TextBlock Grid.Row="1" Text="Radio Button" FontSize="36" Margin="10,10,10,10"/>
-        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="10,10,10,10">
-            <RadioButton Content="Yes" GroupName="UserQueryGroup" Checked="OnRadioCheck" />
-            <RadioButton Content="No" GroupName="UserQueryGroup" Checked="OnRadioCheck" />
-            <TextBlock Name="RadioButtonResult" FontSize="24"/>
-        </StackPanel>
-
-        <TextBlock Grid.Row="2" Text="Combo Box" FontSize="36" Margin="10,10,10,10"/>
-        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" Margin="10,10,10,10">
-            <ComboBox Name="MyComboBox" SelectionChanged="OnSelect">
-                <ComboBox.Items>
-                    <ComboBoxItem Content="First"/>
-                    <ComboBoxItem Content="Second"/>
-                    <ComboBoxItem Content="Third"/>
-                </ComboBox.Items>
-            </ComboBox>
-            <TextBlock Name="ComboBoxResult" FontSize="24"/>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,10,10,10">
+            <TextBlock Text="EXCERCISES" Style="{ThemeResource HeaderTextBlockStyle}" FontSize="36" HorizontalAlignment="Center" Margin="10,10,10,10"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Click="OpenExcercise1" Content="1" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10"/>
+                <Button Click="OpenExcercise2" Content="2" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise3" Content="3" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise4" Content="4" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise5" Content="5" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise6" Content="6" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise7" Content="7" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise8" Content="8" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise9" Content="9" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise10" Content="10" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Click="OpenExcercise11" Content="11" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise12" Content="12" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise13" Content="13" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise14" Content="14" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise15" Content="15" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise16" Content="16" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise17" Content="17" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise18" Content="18" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise19" Content="19" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise20" Content="20" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Click="OpenExcercise21" Content="21" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise22" Content="22" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise23" Content="23" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise24" Content="24" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise25" Content="25" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise26" Content="26" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise27" Content="27" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise28" Content="28" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise29" Content="29" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise30" Content="30" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Click="OpenExcercise31" Content="31" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise32" Content="32" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise33" Content="33" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+                <Button Click="OpenExcercise34" Content="34" Style="{StaticResource ExcerciseButton}" Margin="10,10,10,10" />
+            </StackPanel>
         </StackPanel>
     </Grid>
-    
 </Page>

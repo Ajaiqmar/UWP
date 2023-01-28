@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="LearnApp.Excercise29.MenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise29"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <MenuBar VerticalAlignment="Top">
+            <MenuBarItem Title="Home"/>
+            <MenuBarItem Title="About"/>
+            <MenuBarItem Title="Contacts">
+                <MenuFlyoutItem Text="Aravind"/>
+                <MenuFlyoutItem Text="Shriniwaaz"/>
+            </MenuBarItem>
+        </MenuBar>
+        <CommandBar Grid.Row="1">
+            <AppBarButton Icon="Add" Label="Add Friends"/>
+            <AppBarButton Icon="Find" Label="Search Friend"/>
+            <CommandBar.Content>
+                <TextBlock Text="Quick Actions"/>
+            </CommandBar.Content>
+        </CommandBar>
+        <local:DataForm  Grid.Row="2"/>
+    </Grid>
+</Page>
+

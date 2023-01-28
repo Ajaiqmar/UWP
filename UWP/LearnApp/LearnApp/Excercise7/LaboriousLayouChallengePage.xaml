@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="LearnApp.Excercise7.LaboriousLayouChallengePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--
+        LABORIOUS LAYOUT CHALLENGE
+    -->
+    <Grid Width="500" HorizontalAlignment="Left">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Title 1" FontSize="24" Margin="10,10,10,10"/>
+        <TextBlock Text="Title 2" FontSize="24" Grid.Row="2" Margin="10,10,10,10"/>
+        <TextBlock Text="Title 3" FontSize="24" Grid.Row="4" Margin="10,10,10,10"/>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock TextWrapping="Wrap">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Id neque aliquam vestibulum morbi blandit. 
+                    Feugiat nisl pretium fusce id. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.
+                    Scelerisque felis imperdiet proin fermentum leo vel. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. 
+                    A scelerisque purus semper eget duis. Amet dictum sit amet justo donec enim diam. In dictum non consectetur a erat.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Green" Height="30" Width="100"/>
+                <Rectangle Fill="Black" Height="30" Width="100"/>
+                <Rectangle Fill="Red" Height="30" Width="100"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <TextBlock TextWrapping="Wrap">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Id neque aliquam vestibulum morbi blandit. 
+                    Feugiat nisl pretium fusce id. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.
+                    Scelerisque felis imperdiet proin fermentum leo vel. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. 
+                    A scelerisque purus semper eget duis. Amet dictum sit amet justo donec enim diam. In dictum non consectetur a erat.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Red" Height="30" Width="100"/>
+                <Rectangle Fill="Black" Height="30" Width="100"/>
+                <Rectangle Fill="Blue" Height="30" Width="100"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Grid.Column="1">
+            <TextBlock TextWrapping="Wrap">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Id neque aliquam vestibulum morbi blandit. 
+                    Feugiat nisl pretium fusce id. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl.
+                    Scelerisque felis imperdiet proin fermentum leo vel. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. 
+                    A scelerisque purus semper eget duis. Amet dictum sit amet justo donec enim diam. In dictum non consectetur a erat.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="Blue" Height="30" Width="100"/>
+                <Rectangle Fill="Black" Height="30" Width="100"/>
+                <Rectangle Fill="Yellow" Height="30" Width="100"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

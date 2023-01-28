@@ -1,0 +1,38 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="LearnApp.Excercise22.DataTemplatePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise22"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='2' x:Name="GridViewComponentGroup">
+                <VisualState x:ConnectionId='3' x:Name="Wide">
+                    <VisualState.Setters>
+                        <Setter Target="ComponentImage.Width" Value="200"/>
+                        <Setter Target="ComponentBlock.FontSize" Value="16"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:ConnectionId='4' x:Name="Narrow">
+                    <VisualState.Setters>
+                        <Setter Target="ComponentImage.Width" Value="100"/>
+                        <Setter Target="ComponentBlock.FontSize" Value="12"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Image x:ConnectionId='5' Name="ComponentImage" Margin="10,10,10,10" Width="200"                                 />
+        <TextBlock x:ConnectionId='6' Name="ComponentBlock" HorizontalAlignment="Center"                              FontSize="16" />
+    </StackPanel>
+</Page>
+

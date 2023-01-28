@@ -1,0 +1,1 @@
+D:\UWP\UWP\MVVMApp\MVVMApp\MVVMApp.csproj;x86

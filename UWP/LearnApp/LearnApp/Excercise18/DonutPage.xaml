@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="LearnApp.Excercise18.DonutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise18"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Red">
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="AddOnTextStyle">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Slider" x:Key="AddOnSliderStyle">
+            <Setter Property="Maximum" Value="24"/>
+            <Setter Property="Minimum" Value="0"/>
+            <Setter Property="MinWidth" Value="200"/>
+            <Setter Property="Padding" Value="20,0,40,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="../Assets/white-logo.png" Style="{StaticResource LogoImageStyle}"/>
+        
+        <TextBlock Grid.Row="1" Text="Original Glazed Count :" Style="{StaticResource AddOnTextStyle}"/>
+        <Slider Grid.Row="1" Grid.Column="1" Style="{StaticResource AddOnSliderStyle}"/>
+
+        <TextBlock Grid.Row="2" Text="Speedway Special Count :" Style="{StaticResource AddOnTextStyle}"/>
+        <Slider Grid.Row="2" Grid.Column="1" Style="{StaticResource AddOnSliderStyle}"/>
+    </Grid>
+</Page>

@@ -1,0 +1,111 @@
+﻿<Page
+    x:Class="LearnApp.Excercise14.MoreXAMLControlParts"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise14"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <!-- SCROLL VIEWER IMPLEMENTATION AND MORE XAML COMPONENTS -->
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Time Picker" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1">
+                <TimePicker ClockIdentifier="12HourClock" Margin="10,10,10,10"/>
+            </StackPanel>
+
+            <TextBlock Text="Calendar Date Picker" Grid.Row="1" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="1">
+                <CalendarDatePicker />
+            </StackPanel>
+
+            <TextBlock Text="Calendar View" Grid.Row="2" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
+                <CalendarView Name="MyCalendarView" SelectionMode="Multiple" SelectedDatesChanged="MyCalendarView_SelectedDatesChanged"/>
+                <TextBlock Name="MyCalendarViewResult" Margin="20,0,0,0"/>
+            </StackPanel>
+
+            <TextBlock Text="Flyout" Grid.Row="3" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
+                <Button Content="Flyout">
+                    <Button.Flyout>
+                        <Flyout x:Name="MyFlyout" Placement="Right">
+                            <StackPanel>
+                                <TextBlock Text="This is a Flyout" Margin="0,10,10,20"/>
+                                <Button Content="Back" Click="Button_Click"/>
+                            </StackPanel>
+                        </Flyout>
+                    </Button.Flyout>
+                </Button>
+            </StackPanel>
+
+            <TextBlock Text="Menu Flyout" Grid.Row="4" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="4" Orientation="Horizontal">
+                <Button Content="Menu Flyout">
+                    <Button.Flyout>
+                        <MenuFlyout>
+                            <MenuFlyoutItem Text="Item 1"/>
+                            <MenuFlyoutItem Text="Item 2"/>
+                            <MenuFlyoutSeparator/>
+                            <MenuFlyoutSubItem Text="Items">
+                                <MenuFlyoutItem Text="Item 3"/>
+                                <MenuFlyoutItem Text="Item 4"/>
+                            </MenuFlyoutSubItem>
+                            <MenuFlyoutSeparator/>
+                            <ToggleMenuFlyoutItem Text="Item 5"/>
+                        </MenuFlyout>
+                    </Button.Flyout>
+                </Button>
+            </StackPanel>
+
+            <TextBlock Text="AutoSuggest Box" Grid.Row="5" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="5" Orientation="Horizontal">
+                <AutoSuggestBox Name="MyAutoSuggestBox" PlaceholderText="Search" Width="200" QueryIcon="Find" TextChanged="MyAutoSuggestBox_TextChanged" />
+            </StackPanel>
+
+
+            <TextBlock Text="Slider" Grid.Row="6" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="6" Orientation="Horizontal">
+                <Slider x:Name="MySlider" Minimum="0" Maximum="100" Width="200"/>
+            </StackPanel>
+
+            <TextBlock Text="Progress Bar" Grid.Row="7" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="7" Orientation="Horizontal">
+                <ProgressBar x:Name="MyProgressBar" Minimum="0" Maximum="100" Width="200" Value="{x:Bind MySlider.Value, Mode=OneWay}"/>
+            </StackPanel>
+
+            <TextBlock Text="Progress Ring" Grid.Row="8" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="8" Orientation="Horizontal">
+                <ProgressRing FontSize="36" IsActive="True" Foreground="Black"/>
+            </StackPanel>
+
+            <TextBlock Text="Password Box" Grid.Row="9" FontSize="26" Margin="10,10,10,10"/>
+            <StackPanel Grid.Column="1" Grid.Row="9" Orientation="Horizontal">
+                <PasswordBox x:Name="MyPassword" Width="200"  PasswordChanged="OnPasswordChange"/>
+                <TextBlock Name="PasswordBoxResult" Margin="20,0,0,0"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Page>

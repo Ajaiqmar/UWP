@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="LearnApp.Excercise32.NotifyPropertyChangedPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise32"
+    xmlns:loc="using:LearnApp.Excercise32.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <loc:Employee x:Key="emp" Name="Trump"></loc:Employee>
+    </Page.Resources>
+
+    <Grid DataContext="{StaticResource emp}">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBox Text="{Binding Name,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="200" Height="40"/>
+        <TextBox Text="{Binding FullName}" Grid.Row="1" Width="200" Height="40"/>
+    </Grid>
+</Page>
+

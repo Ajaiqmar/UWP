@@ -1,0 +1,1 @@
+D:\UWP\UWP\UWP Weather\UWP Weather\UWP Weather.csproj;x64

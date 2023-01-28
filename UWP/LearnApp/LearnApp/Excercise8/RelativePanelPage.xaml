@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="LearnApp.Excercise8.RelativePanelPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!-- 
+        RELATIVE PANEL
+    -->
+
+    <Grid>
+        <RelativePanel>
+            <TextBlock Name="Header" 
+                       FontSize="48" 
+                       FontWeight="Bold" 
+                       Text="Title" 
+                       RelativePanel.AlignLeftWithPanel="True" 
+                       Margin="20,10,0,0"/>
+
+            <Button Name="SearchButton" 
+                    Content="Search" FontSize="24" 
+                    RelativePanel.AlignRightWithPanel="True" 
+                    RelativePanel.AlignVerticalCenterWith="Header" 
+                    Margin="0,10,20,0"/>
+            <TextBox Name="SearchBox" 
+                     FontSize="24" MinWidth="200" 
+                     RelativePanel.AlignVerticalCenterWith="Header" 
+                     RelativePanel.LeftOf="SearchButton" 
+                     Margin="20,10,20,0"/>
+            <TextBlock Text="Search:" 
+                       FontSize="24" 
+                       RelativePanel.AlignVerticalCenterWith="Header" 
+                       RelativePanel.LeftOf="SearchBox" 
+                       Margin="0,10,0,0"/>
+
+            <Grid RelativePanel.AlignBottomWithPanel="True" 
+                  RelativePanel.AlignLeftWithPanel="True" 
+                  RelativePanel.AlignRightWithPanel="True"  
+                  Background="#FFA2A2A2" 
+                  Padding="5,5,5,5" 
+                  BorderThickness="3" 
+                  BorderBrush="#Feb2A2A2">
+                <RelativePanel>
+                    <TextBlock Text="Items: 10" 
+                               FontSize="24" 
+                               RelativePanel.AlignLeftWithPanel="True"/>
+                    <TextBlock Text="Version: 1.0.0" 
+                               FontSize="24" 
+                               RelativePanel.AlignRightWithPanel="True"/>
+                    <TextBlock Text="User: Bob" 
+                               FontSize="24" 
+                               RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+                </RelativePanel>
+            </Grid>
+        </RelativePanel>
+    </Grid>
+</Page>

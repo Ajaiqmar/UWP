@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ZOHO\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj": {}
+    "D:\\UWP\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj": {}
   },
   "projects": {
-    "E:\\ZOHO\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj": {
+    "D:\\UWP\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ZOHO\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj",
+        "projectUniqueName": "D:\\UWP\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj",
         "projectName": "LearnApp",
-        "projectPath": "E:\\ZOHO\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj",
-        "packagesPath": "C:\\Users\\ajaiqmar\\.nuget\\packages\\",
-        "outputPath": "E:\\ZOHO\\UWP\\LearnApp\\LearnApp\\obj\\",
+        "projectPath": "D:\\UWP\\UWP\\LearnApp\\LearnApp\\LearnApp.csproj",
+        "packagesPath": "C:\\Users\\ajay-pt6891\\.nuget\\packages\\",
+        "outputPath": "D:\\UWP\\UWP\\LearnApp\\LearnApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,29 +19,33 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ajaiqmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ajay-pt6891\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "uap10.0.17763"
+          "uap10.0.18362"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.17763": {
+          "uap10.0.18362": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "uap10.0.17763": {
+        "uap10.0.18362": {
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI": {
+              "target": "Package",
+              "version": "[7.1.3, )"
             }
           },
           "imports": [

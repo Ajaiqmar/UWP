@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="LearnApp.Excercise4.StackPanelPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!--
+        LAYOUT ELEMENTS - STACKPANEL
+    -->
+    <StackPanel>
+        <TextBlock>1. AJAY KUMAR</TextBlock>
+        <TextBlock>2. DINESH</TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Margin="0,0,10,0">3. VASANTH</TextBlock>
+            <TextBlock>4. SHRINIWAAZ</TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Page>

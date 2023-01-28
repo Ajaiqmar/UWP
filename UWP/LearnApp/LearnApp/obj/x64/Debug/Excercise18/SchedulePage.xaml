@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="LearnApp.Excercise18.SchedulePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise18"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Green">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Source="../Assets/white-logo.png" Style="{StaticResource LogoImageStyle}"/>
+
+        <TextBlock Grid.Row="1" FontSize="18" Text="Pickup : " Foreground="White" Margin="50,50,0,0" />
+
+        <CalendarDatePicker Grid.Row="1" Grid.Column="1" Margin="50,50,50,25" PlaceholderText="Select a Date"/>
+        <TimePicker Grid.Row="2" Grid.Column="1" Margin="50,0,50,50" />
+    </Grid>
+</Page>
+

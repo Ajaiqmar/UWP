@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="LearnApp.Excercise19.VisualStateManagerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise19"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Name="MyGrid">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="MyVisualStateGroup">
+                <VisualState x:Name="PhoneVisualState">
+                    <VisualState.Setters>
+                        <Setter Target="MyTextBlock.FontSize" Value="24"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="TabletVisualState">
+                    <VisualState.Setters>
+                        <Setter Target="MyTextBlock.FontSize" Value="48"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="DesktopVisualState">
+                    <VisualState.Setters>
+                        <Setter Target="MyTextBlock.FontSize" Value="96"/>
+                    </VisualState.Setters>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1200"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <TextBlock Name="MyTextBlock" Text="VisualState Manager Representation"/>
+    </Grid>
+</Page>

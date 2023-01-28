@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AJAY-PT6891</Machine>
+    <WindowsUser>ajay-pt6891</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>42655f51-0c21-46f8-a852-1921782c7902</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ajay-pt6891</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\UWP\UWP\UWP Weather\UWP Weather\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>59206B92759ED47BAE35DE30E47F292C376E1BAF555A292AEE09E706D8C2F7AA</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>42655f51-0c21-46f8-a852-1921782c7902_1.0.0.0_x64__m4y0w6ceacxm2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>42655f51-0c21-46f8-a852-1921782c7902_m4y0w6ceacxm2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>42655f51-0c21-46f8-a852-1921782c7902</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ajay-pt6891</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-16T17:49:20.045</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\UWP Weather.exe">
+      <PackagePath>entrypoint\UWP Weather.exe</PackagePath>
+      <Modified>2023-01-16T17:49:15.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ajay-pt6891\.nuget\packages\geocoordinate.netcore\1.0.0.1\lib\netstandard1.6\GeoCoordinate.NetCore.dll">
+      <PackagePath>GeoCoordinate.NetCore.dll</PackagePath>
+      <Modified>2016-08-17T21:57:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T16:53:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2022-07-15T11:47:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\01d.png">
+      <PackagePath>Assets\Weather\01d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\01n.png">
+      <PackagePath>Assets\Weather\01n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\02d.png">
+      <PackagePath>Assets\Weather\02d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\02n.png">
+      <PackagePath>Assets\Weather\02n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\03d.png">
+      <PackagePath>Assets\Weather\03d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\03n.png">
+      <PackagePath>Assets\Weather\03n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\04d.png">
+      <PackagePath>Assets\Weather\04d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\04n.png">
+      <PackagePath>Assets\Weather\04n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\09d.png">
+      <PackagePath>Assets\Weather\09d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\09n.png">
+      <PackagePath>Assets\Weather\09n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\10d.png">
+      <PackagePath>Assets\Weather\10d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\10n.png">
+      <PackagePath>Assets\Weather\10n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\11d.png">
+      <PackagePath>Assets\Weather\11d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\11n.png">
+      <PackagePath>Assets\Weather\11n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\13d.png">
+      <PackagePath>Assets\Weather\13d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\13n.png">
+      <PackagePath>Assets\Weather\13n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\50d.png">
+      <PackagePath>Assets\Weather\50d.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Weather\50n.png">
+      <PackagePath>Assets\Weather\50n.png</PackagePath>
+      <Modified>2023-01-12T12:23:26.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2023-01-05T11:12:00.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-05T11:12:00.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-05T11:12:00.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-05T11:12:00.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-05T11:12:00.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-05T11:12:00.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-05T11:12:00.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2023-01-12T12:19:58.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\UWP Weather.xr.xml">
+      <PackagePath>UWP Weather.xr.xml</PackagePath>
+      <Modified>2023-01-16T17:49:14.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2023-01-16T17:49:14.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2023-01-16T17:49:14.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2022-07-15T16:23:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-01-16T17:49:16.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP Weather\UWP Weather\bin\x64\Debug\Core\UWP Weather.exe">
+      <PackagePath>UWP Weather.exe</PackagePath>
+      <Modified>2023-01-16T17:49:19.651</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

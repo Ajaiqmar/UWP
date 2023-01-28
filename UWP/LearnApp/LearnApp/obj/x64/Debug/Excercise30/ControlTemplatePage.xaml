@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="LearnApp.Excercise30.ControlTemplatePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise30"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="MyAccentColor" Color="Black"/>
+                    <SolidColorBrush x:Key="MyDarkAccentColor" Color="White"/>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="MyAccentColor" Color="White"/>
+                    <SolidColorBrush x:Key="MyDarkAccentColor" Color="Black"/>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="HighContrast">
+                    <SolidColorBrush x:Key="MyAccentColor" Color="Black"/>
+                    <SolidColorBrush x:Key="MyDarkAccentColor" Color="White"/>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+
+            <ControlTemplate TargetType="Button" x:Key="ModifiedButton" >
+                <Grid>
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Target="TextBoxBorder.Background" Value="{ThemeResource MyDarkAccentColor}"/>
+                                    <Setter Target="MyTextBox.Foreground" Value="{ThemeResource MyAccentColor}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="MouseOver">
+                                <VisualState.Setters>
+                                    <Setter Target="TextBoxBorder.Background" Value="{ThemeResource MyAccentColor}"/>
+                                    <Setter Target="MyTextBox.Foreground" Value="{ThemeResource MyDarkAccentColor}"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Pressed">
+                                <Storyboard x:ConnectionId='8'                                >
+                                    <ColorAnimation Duration="0:0:0.1" Storyboard.TargetName="TextBoxBorder" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" To="{ThemeResource MyAccentColor}" From="{ThemeResource MyDarkAccentColor}"/>
+                                    <ColorAnimation Duration="0:0:0.1" Storyboard.TargetName="MyTextBox" Storyboard.TargetProperty="(TextBlock.Foreground).(SolidColorBrush.Color)" To="{ThemeResource MyDarkAccentColor}" From="{ThemeResource MyAccentColor}"/>
+                                </Storyboard>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+
+                    <Border Name="TextBoxBorder" BorderBrush="{ThemeResource MyAccentColor}" BorderThickness="1" Padding="10" CornerRadius="25">
+                        <TextBlock Name="MyTextBox" Text="{TemplateBinding Content}" FontSize="{TemplateBinding FontSize}" FontFamily="{TemplateBinding FontFamily}"/>
+                    </Border>
+                </Grid>
+            </ControlTemplate>
+
+            <x:String x:Key="ButtonDefaultContent">&#xE708;</x:String>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Button x:ConnectionId='11' Name="MyButton" Content="{StaticResource ButtonDefaultContent}" FontSize="24" FontFamily="Segoe mdl2 assets" HorizontalAlignment="Center" Template="{StaticResource ModifiedButton}"                                                                              />
+    </Grid>
+</Page>
+

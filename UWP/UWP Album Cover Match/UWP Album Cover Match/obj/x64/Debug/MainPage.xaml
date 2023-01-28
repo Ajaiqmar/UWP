@@ -1,0 +1,84 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="UWP_Album_Cover_Match.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_Album_Cover_Match"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dat="using:UWP_Album_Cover_Match.Models"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                       >
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <Storyboard x:ConnectionId='2' x:Name="TimerAnimation"                                >
+                <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="Timer" Storyboard.TargetProperty="(RangeBase.Value)">
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:0" Value="100"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:1" Value="90"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:2" Value="80"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:3" Value="70"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:4" Value="60"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:5" Value="50"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:6" Value="40"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:7" Value="30"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:8" Value="20"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:9" Value="10"/>
+                    <DiscreteDoubleKeyFrame KeyTime="0:0:10" Value="0"/>
+                </DoubleAnimationUsingKeyFrames>
+            </Storyboard>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="Transparent"/>
+                    <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="Transparent"/>
+                    <SolidColorBrush x:Key="ButtonForegroundPressed" Color="DarkGray"/>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="Transparent"/>
+                    <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="Transparent"/>
+                    <SolidColorBrush x:Key="ButtonForegroundPressed" Color="DarkGray"/>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ProgressBar x:ConnectionId='3' Name="Timer" HorizontalAlignment="Stretch" Height="20" Margin="20" Foreground="Black"/>
+        
+        <MediaElement x:ConnectionId='4' Name="SongPlayer" Visibility="Collapsed" AutoPlay="True" />
+
+        <TextBlock x:ConnectionId='5' Name="GameStateDescription" FontSize="24" Grid.Row="1" Style="{ThemeResource HeaderTextBlockStyle}" HorizontalAlignment="Center" Margin="10" />
+        
+        <GridView x:ConnectionId='6' Name="SongList" Grid.Row="2"                                  Margin="10" IsItemClickEnabled="True"                          SelectionMode="Single">
+            <GridView.ItemContainerStyle>
+                <Style TargetType="GridViewItem">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Padding" Value="5"/>
+                </Style>
+            </GridView.ItemContainerStyle>
+            <GridView.ItemTemplate>
+                <DataTemplate                      >
+                    <Image x:ConnectionId='13' Name="SongThumbnail"                                 Width="100"/>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        
+        <StackPanel Grid.Row="3" Margin="20">
+            <TextBlock x:ConnectionId='8' Name="TotalScore" FontSize="18"  Style="{ThemeResource HeaderTextBlockStyle}"/>
+            <TextBlock x:ConnectionId='9' Name="CorrectSong" FontSize="18"  Style="{ThemeResource HeaderTextBlockStyle}"/>
+            <TextBlock x:ConnectionId='10' Name="PerformedBy" FontSize="18"  Style="{ThemeResource HeaderTextBlockStyle}"/>
+            <TextBlock x:ConnectionId='11' Name="InAlbum" FontSize="18"  Style="{ThemeResource HeaderTextBlockStyle}"/>
+        </StackPanel>
+
+        <Button x:ConnectionId='7' Name="ReplayButton" Grid.Row="4" Margin="20" Content="&#xE1CD;" BorderThickness="0" FontFamily="Segoe mdl2 Assets" FontWeight="Bold" FontSize="36" Background="Transparent" HorizontalAlignment="Center" Visibility="Collapsed"                     />
+    </Grid>
+</Page>
+
+

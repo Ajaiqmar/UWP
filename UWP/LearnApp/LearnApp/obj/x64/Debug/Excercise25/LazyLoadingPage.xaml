@@ -1,0 +1,35 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="LearnApp.Excercise25.LazyLoadingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise25"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <Grid x:ConnectionId='2' x:Name="DeferredGrid" x:Load="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Height="100" Width="100" Fill="Orange" Margin="0,0,4,4"/>
+            <Rectangle Height="100" Width="100" Fill="Green" Grid.Column="1" Margin="4,0,0,4"/>
+            <Rectangle Height="100" Width="100" Fill="Blue" Grid.Row="1" Margin="0,4,4,0"/>
+            <Rectangle x:ConnectionId='6' Height="100" Width="100" Fill="Gold" Grid.Row="1" Grid.Column="1" Margin="4,4,0,0"
+                   x:Name="one" x:Load="False"                                               />
+            <Rectangle x:ConnectionId='7' Height="100" Width="100" Fill="Silver" Grid.Row="1" Grid.Column="1" Margin="4,4,0,0"
+                   x:Name="two" x:Load="False"                                         />
+        </Grid>
+
+        <Button x:ConnectionId='3' Content="Load elements"                           />
+        <Button x:ConnectionId='4' Content="Unload elements"                             />
+        <CheckBox x:ConnectionId='5' x:Name="CheckBox1" Content="Swap Elements" />
+    </StackPanel>
+</Page>
+

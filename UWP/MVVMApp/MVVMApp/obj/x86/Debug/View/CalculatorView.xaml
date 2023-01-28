@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="MVVMApp.View.CalculatorView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MVVMApp.View"
+    xmlns:loc="using:MVVMApp.ViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <loc:CalculatorViewModel/>
+    </Page.DataContext>
+    
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <TextBox Text="{Binding LeftOperand,Mode=TwoWay}" Width="200" FontSize="24" Margin="10"/>
+            <TextBox Text="{Binding RightOperand,Mode=TwoWay}" Width="200" FontSize="24" Margin="10,0,10,10"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10,0,10,10">
+                <RadioButton IsChecked="{Binding IsPlusChecked,Mode=TwoWay}" Command="{Binding OnRadioCheck}" Content="+" GroupName="Operators"/>
+                <RadioButton IsChecked="{Binding IsSubChecked,Mode=TwoWay}" Command="{Binding OnRadioCheck}" Content="-" GroupName="Operators"/>
+                <RadioButton IsChecked="{Binding IsDivChecked,Mode=TwoWay}" Command="{Binding OnRadioCheck}" Content="/" GroupName="Operators"/>
+                <RadioButton IsChecked="{Binding IsMulChecked,Mode=TwoWay}" Command="{Binding OnRadioCheck}" Content="*" GroupName="Operators"/>
+            </StackPanel>
+            <TextBlock Text="{Binding Result,Mode=TwoWay}" Visibility="{Binding IsResultVisible}" FontSize="24" Margin="10,0,10,10" HorizontalAlignment="Center"/>
+            <Button Command="{Binding OnSubmit}" IsEnabled="{Binding IsButtonEnabled}" Margin="10,0,10,10" Content="Find" FontSize="24" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

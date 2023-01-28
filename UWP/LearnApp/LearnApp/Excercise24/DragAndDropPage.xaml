@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="LearnApp.Excercise24.DragAndDropPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearnApp.Excercise24"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Height="200" Background="LightGray" Margin="20" CornerRadius="25" AllowDrop="True" DragOver="OnDragOver" Drop="OnDrop">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock FontFamily="Segoe mdl2 assets" FontSize="64" Text="&#xE118;" Opacity="0.25" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                <TextBlock Text="Drag and Drop a file" FontSize="12" Style="{ThemeResource FlyoutPickerTitleTextBlockStyle}" HorizontalAlignment="Center" Opacity="0.5"/>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="1" Margin="30,20,30,20">
+            <TextBlock Text="Images" FontSize="32" Style="{ThemeResource HeaderTextBlockStyle}" Margin="0,0,0,20"/>
+            <Image Name="MyImage" Width="300"/>
+        </StackPanel>
+    </Grid>
+</Page>

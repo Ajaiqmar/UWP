@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AJAY-PT6891</Machine>
+    <WindowsUser>ajay-pt6891</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>a28d4db8-2759-46e4-9c81-271e2b39c764</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ajay-pt6891</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E4381A4BA94194DDFF9C2F54D5C49C0E6328B505137FD45A6CAB0B21621EA2FC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a28d4db8-2759-46e4-9c81-271e2b39c764_1.0.0.0_x64__m4y0w6ceacxm2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a28d4db8-2759-46e4-9c81-271e2b39c764_m4y0w6ceacxm2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a28d4db8-2759-46e4-9c81-271e2b39c764</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ajay-pt6891</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-17T10:20:50.747</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\UWP SoundBoard.exe">
+      <PackagePath>entrypoint\UWP SoundBoard.exe</PackagePath>
+      <Modified>2023-01-17T10:20:50.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T16:53:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2022-07-15T11:47:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\1240x1240.png">
+      <PackagePath>Assets\1240x1240.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\1240x600.png">
+      <PackagePath>Assets\1240x600.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\24x24-large.png">
+      <PackagePath>Assets\24x24-large.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\24x24.scale-100.png">
+      <PackagePath>Assets\24x24.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\300x300.png">
+      <PackagePath>Assets\300x300.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\310x310.scale-100.png">
+      <PackagePath>Assets\310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\310x310.scale-400.png">
+      <PackagePath>Assets\310x310.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\50x50-large.png">
+      <PackagePath>Assets\50x50-large.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\50x50.png">
+      <PackagePath>Assets\50x50.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\620x300.png">
+      <PackagePath>Assets\620x300.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\71x71-large.png">
+      <PackagePath>Assets\71x71-large.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\71x71.scale-100.png">
+      <PackagePath>Assets\71x71.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\88x88-large.png">
+      <PackagePath>Assets\88x88-large.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\88x88.png">
+      <PackagePath>Assets\88x88.png</PackagePath>
+      <Modified>2023-01-11T05:46:32.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Icons\animals.png">
+      <PackagePath>Assets\Icons\animals.png</PackagePath>
+      <Modified>2023-01-11T06:24:43.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Icons\cartoon.png">
+      <PackagePath>Assets\Icons\cartoon.png</PackagePath>
+      <Modified>2023-01-11T06:24:43.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Animals\Cat.png">
+      <PackagePath>Assets\Images\Animals\Cat.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Animals\Cow.png">
+      <PackagePath>Assets\Images\Animals\Cow.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Cartoons\Gun.png">
+      <PackagePath>Assets\Images\Cartoons\Gun.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Cartoons\Spring.png">
+      <PackagePath>Assets\Images\Cartoons\Spring.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Taunts\Clock.png">
+      <PackagePath>Assets\Images\Taunts\Clock.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Taunts\LOL.png">
+      <PackagePath>Assets\Images\Taunts\LOL.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Warnings\Ship.png">
+      <PackagePath>Assets\Images\Warnings\Ship.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Images\Warnings\Siren.png">
+      <PackagePath>Assets\Images\Warnings\Siren.png</PackagePath>
+      <Modified>2023-01-11T08:05:33.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Icons\taunt.png">
+      <PackagePath>Assets\Icons\taunt.png</PackagePath>
+      <Modified>2023-01-11T06:24:43.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Icons\warning.png">
+      <PackagePath>Assets\Icons\warning.png</PackagePath>
+      <Modified>2023-01-11T06:24:43.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-01-11T05:46:32.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Animals\Cat.wav">
+      <PackagePath>Assets\Audio\Animals\Cat.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Animals\Cow.wav">
+      <PackagePath>Assets\Audio\Animals\Cow.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Cartoons\Gun.wav">
+      <PackagePath>Assets\Audio\Cartoons\Gun.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Cartoons\Spring.wav">
+      <PackagePath>Assets\Audio\Cartoons\Spring.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Taunts\Clock.wav">
+      <PackagePath>Assets\Audio\Taunts\Clock.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Taunts\LOL.wav">
+      <PackagePath>Assets\Audio\Taunts\LOL.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Warnings\Ship.wav">
+      <PackagePath>Assets\Audio\Warnings\Ship.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Assets\Audio\Warnings\Siren.wav">
+      <PackagePath>Assets\Audio\Warnings\Siren.wav</PackagePath>
+      <Modified>2023-01-11T08:05:23.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2023-01-10T13:23:13.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\UWP SoundBoard.xr.xml">
+      <PackagePath>UWP SoundBoard.xr.xml</PackagePath>
+      <Modified>2023-01-17T10:20:49.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2023-01-17T10:20:49.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2023-01-17T10:20:49.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2022-07-15T16:23:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-01-16T17:34:59.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\bin\x64\Debug\Core\UWP SoundBoard.exe">
+      <PackagePath>UWP SoundBoard.exe</PackagePath>
+      <Modified>2023-01-17T10:20:50.733</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

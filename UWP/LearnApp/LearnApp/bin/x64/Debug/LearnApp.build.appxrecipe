@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AJAY-PT6891</Machine>
+    <WindowsUser>ajay-pt6891</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>d9df7810-04a4-428d-852e-a86cd5135504</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ajaiqmar</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\UWP\UWP\LearnApp\LearnApp\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\LearnApp.exe">
+      <PackagePath>entrypoint\LearnApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ajay-pt6891\.nuget\packages\microsoft.toolkit\7.1.2\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ajay-pt6891\.nuget\packages\microsoft.toolkit.uwp\7.1.3\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ajay-pt6891\.nuget\packages\microsoft.toolkit.uwp.ui\7.1.3\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\UWP SoundBoard\UWP SoundBoard\obj\x64\Debug\UWP SoundBoard.exe">
+      <PackagePath>UWP SoundBoard.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\10.png">
+      <PackagePath>Assets\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\11.png">
+      <PackagePath>Assets\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\12.png">
+      <PackagePath>Assets\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\13.png">
+      <PackagePath>Assets\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\2.png">
+      <PackagePath>Assets\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\3.png">
+      <PackagePath>Assets\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\4.png">
+      <PackagePath>Assets\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\5.png">
+      <PackagePath>Assets\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\6.png">
+      <PackagePath>Assets\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\7.png">
+      <PackagePath>Assets\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\8.png">
+      <PackagePath>Assets\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\9.png">
+      <PackagePath>Assets\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\coffee-icon.png">
+      <PackagePath>Assets\coffee-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\color-logo.png">
+      <PackagePath>Assets\color-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\complete-icon.png">
+      <PackagePath>Assets\complete-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\donut-icon.png">
+      <PackagePath>Assets\donut-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\female-01.png">
+      <PackagePath>Assets\female-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\female-02.png">
+      <PackagePath>Assets\female-02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\female-03.png">
+      <PackagePath>Assets\female-03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Financial.png">
+      <PackagePath>Assets\Financial.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Financial1.png">
+      <PackagePath>Assets\Financial1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Financial2.png">
+      <PackagePath>Assets\Financial2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Financial3.png">
+      <PackagePath>Assets\Financial3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Financial4.png">
+      <PackagePath>Assets\Financial4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Financial5.png">
+      <PackagePath>Assets\Financial5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Food.png">
+      <PackagePath>Assets\Food.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Food1.png">
+      <PackagePath>Assets\Food1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Food2.png">
+      <PackagePath>Assets\Food2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Food3.png">
+      <PackagePath>Assets\Food3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Food4.png">
+      <PackagePath>Assets\Food4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Food5.png">
+      <PackagePath>Assets\Food5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\male-01.png">
+      <PackagePath>Assets\male-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\male-02.png">
+      <PackagePath>Assets\male-02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\male-03.png">
+      <PackagePath>Assets\male-03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\schedule-icon.png">
+      <PackagePath>Assets\schedule-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\white-logo.png">
+      <PackagePath>Assets\white-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\background.jpg">
+      <PackagePath>Assets\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\Tibbles.jpg">
+      <PackagePath>Assets\Tibbles.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\ticket.jpg">
+      <PackagePath>Assets\ticket.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Assets\dummy.jfif">
+      <PackagePath>Assets\dummy.jfif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\LearnApp.xr.xml">
+      <PackagePath>LearnApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise10\XAMLControlsPage.xbf">
+      <PackagePath>Excercise10\XAMLControlsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise11\NavigationPage.xbf">
+      <PackagePath>Excercise11\NavigationPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise12\HamburgerNavigationPage.xbf">
+      <PackagePath>Excercise12\HamburgerNavigationPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise13\HamburgerNavigationPageChallenge.xbf">
+      <PackagePath>Excercise13\HamburgerNavigationPageChallenge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise14\MoreXAMLControlParts.xbf">
+      <PackagePath>Excercise14\MoreXAMLControlParts.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise15\CanvasPage.xbf">
+      <PackagePath>Excercise15\CanvasPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise16\Dictionary1.xbf">
+      <PackagePath>Excercise16\Dictionary1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise16\XAMLStylesPage.xbf">
+      <PackagePath>Excercise16\XAMLStylesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise17\XAMLThemeResource.xbf">
+      <PackagePath>Excercise17\XAMLThemeResource.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise18\CoffeePage.xbf">
+      <PackagePath>Excercise18\CoffeePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise18\CompletePage.xbf">
+      <PackagePath>Excercise18\CompletePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise18\DonutPage.xbf">
+      <PackagePath>Excercise18\DonutPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise18\SchedulePage.xbf">
+      <PackagePath>Excercise18\SchedulePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise18\StupedousStyleChallengePage.xbf">
+      <PackagePath>Excercise18\StupedousStyleChallengePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise19\VisualStateManagerPage.xbf">
+      <PackagePath>Excercise19\VisualStateManagerPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise1\HelloWorldPage.xbf">
+      <PackagePath>Excercise1\HelloWorldPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise20\AdaptiveLayoutPage.xbf">
+      <PackagePath>Excercise20\AdaptiveLayoutPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise21\DataBindingPage.xbf">
+      <PackagePath>Excercise21\DataBindingPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise22\DataTemplatePage.xbf">
+      <PackagePath>Excercise22\DataTemplatePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise22\ObservableCollectionPage.xbf">
+      <PackagePath>Excercise22\ObservableCollectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise23\AdeptlyAdaptiveChallengePage.xbf">
+      <PackagePath>Excercise23\AdeptlyAdaptiveChallengePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise23\NewsItemDataTemplate.xbf">
+      <PackagePath>Excercise23\NewsItemDataTemplate.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise24\DragAndDropPage.xbf">
+      <PackagePath>Excercise24\DragAndDropPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise25\LazyLoadingPage.xbf">
+      <PackagePath>Excercise25\LazyLoadingPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise26\CustomPanelPage.xbf">
+      <PackagePath>Excercise26\CustomPanelPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise27\FilePickerPage.xbf">
+      <PackagePath>Excercise27\FilePickerPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise28\VariableSizedWrapGridPage.xbf">
+      <PackagePath>Excercise28\VariableSizedWrapGridPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise29\DataForm.xbf">
+      <PackagePath>Excercise29\DataForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise29\MenuPage.xbf">
+      <PackagePath>Excercise29\MenuPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise2\ProceduralComponentCreation.xbf">
+      <PackagePath>Excercise2\ProceduralComponentCreation.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise30\ControlTemplatePage.xbf">
+      <PackagePath>Excercise30\ControlTemplatePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise31\StateTriggersPage.xbf">
+      <PackagePath>Excercise31\StateTriggersPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise32\NotifyPropertyChangedPage.xbf">
+      <PackagePath>Excercise32\NotifyPropertyChangedPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise33\DependencyPropertyPage.xbf">
+      <PackagePath>Excercise33\DependencyPropertyPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise33\User Controls\Form.xbf">
+      <PackagePath>Excercise33\User Controls\Form.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise34\TemplatedControlPage.xbf">
+      <PackagePath>Excercise34\TemplatedControlPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise3\GridPage.xbf">
+      <PackagePath>Excercise3\GridPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise4\StackPanelPage.xbf">
+      <PackagePath>Excercise4\StackPanelPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise5\LaudableLayoutChallengePage.xbf">
+      <PackagePath>Excercise5\LaudableLayoutChallengePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise6\LegendaryLayoutChallengePage.xbf">
+      <PackagePath>Excercise6\LegendaryLayoutChallengePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise7\LaboriousLayouChallengePage.xbf">
+      <PackagePath>Excercise7\LaboriousLayouChallengePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise8\RelativePanelPage.xbf">
+      <PackagePath>Excercise8\RelativePanelPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise9\SplitPanelPage.xbf">
+      <PackagePath>Excercise9\SplitPanelPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise13\FinancialPage.xbf">
+      <PackagePath>Excercise13\FinancialPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise13\FoodPage.xbf">
+      <PackagePath>Excercise13\FoodPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise11\Page1.xbf">
+      <PackagePath>Excercise11\Page1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise11\Page2.xbf">
+      <PackagePath>Excercise11\Page2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Excercise11\Page3.xbf">
+      <PackagePath>Excercise11\Page3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Themes\Generic.xbf">
+      <PackagePath>Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\UWP\LearnApp\LearnApp\bin\x64\Debug\Core\LearnApp.exe">
+      <PackagePath>LearnApp.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

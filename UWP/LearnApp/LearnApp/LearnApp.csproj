@@ -11,8 +11,8 @@
     <AssemblyName>LearnApp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22000.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.18362.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -119,8 +119,154 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Excercise10\XAMLControlsPage.xaml.cs">
+      <DependentUpon>XAMLControlsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise11\NavigationPage.xaml.cs">
+      <DependentUpon>NavigationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise12\HamburgerNavigationPage.xaml.cs">
+      <DependentUpon>HamburgerNavigationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise13\HamburgerNavigationPageChallenge.xaml.cs">
+      <DependentUpon>HamburgerNavigationPageChallenge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise14\MoreXAMLControlParts.xaml.cs">
+      <DependentUpon>MoreXAMLControlParts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise15\CanvasPage.xaml.cs">
+      <DependentUpon>CanvasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise16\XAMLStylesPage.xaml.cs">
+      <DependentUpon>XAMLStylesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise17\XAMLThemeResource.xaml.cs">
+      <DependentUpon>XAMLThemeResource.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise18\CoffeePage.xaml.cs">
+      <DependentUpon>CoffeePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise18\CompletePage.xaml.cs">
+      <DependentUpon>CompletePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise18\DonutPage.xaml.cs">
+      <DependentUpon>DonutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise18\SchedulePage.xaml.cs">
+      <DependentUpon>SchedulePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise18\StupedousStyleChallengePage.xaml.cs">
+      <DependentUpon>StupedousStyleChallengePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise19\VisualStateManagerPage.xaml.cs">
+      <DependentUpon>VisualStateManagerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise1\HelloWorldPage.xaml.cs">
+      <DependentUpon>HelloWorldPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise20\AdaptiveLayoutPage.xaml.cs">
+      <DependentUpon>AdaptiveLayoutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise21\DataBindingPage.xaml.cs">
+      <DependentUpon>DataBindingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise21\Models\Book.cs" />
+    <Compile Include="Excercise22\DataTemplatePage.xaml.cs">
+      <DependentUpon>DataTemplatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise22\Models\Contact.cs" />
+    <Compile Include="Excercise22\ObservableCollectionPage.xaml.cs">
+      <DependentUpon>ObservableCollectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise23\AdeptlyAdaptiveChallengePage.xaml.cs">
+      <DependentUpon>AdeptlyAdaptiveChallengePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise23\Models\NewsItem.cs" />
+    <Compile Include="Excercise23\NewsItemDataTemplate.xaml.cs">
+      <DependentUpon>NewsItemDataTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise24\DragAndDropPage.xaml.cs">
+      <DependentUpon>DragAndDropPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise25\LazyLoadingPage.xaml.cs">
+      <DependentUpon>LazyLoadingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise26\CustomPanelPage.xaml.cs">
+      <DependentUpon>CustomPanelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise27\FilePickerPage.xaml.cs">
+      <DependentUpon>FilePickerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise28\VariableSizedWrapGridPage.xaml.cs">
+      <DependentUpon>VariableSizedWrapGridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise29\DataForm.xaml.cs">
+      <DependentUpon>DataForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise29\MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise2\ProceduralComponentCreation.xaml.cs">
+      <DependentUpon>ProceduralComponentCreation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise30\ControlTemplatePage.xaml.cs">
+      <DependentUpon>ControlTemplatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise31\StateTriggersPage.xaml.cs">
+      <DependentUpon>StateTriggersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise32\Models\Employee.cs" />
+    <Compile Include="Excercise32\NotifyPropertyChangedPage.xaml.cs">
+      <DependentUpon>NotifyPropertyChangedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise33\DependencyPropertyPage.xaml.cs">
+      <DependentUpon>DependencyPropertyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise33\User Controls\Form.xaml.cs">
+      <DependentUpon>Form.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise34\MyTemplatedControl.cs" />
+    <Compile Include="Excercise34\TemplatedControlPage.xaml.cs">
+      <DependentUpon>TemplatedControlPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise3\GridPage.xaml.cs">
+      <DependentUpon>GridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise4\StackPanelPage.xaml.cs">
+      <DependentUpon>StackPanelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise5\LaudableLayoutChallengePage.xaml.cs">
+      <DependentUpon>LaudableLayoutChallengePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise6\LegendaryLayoutChallengePage.xaml.cs">
+      <DependentUpon>LegendaryLayoutChallengePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise7\LaboriousLayouChallengePage.xaml.cs">
+      <DependentUpon>LaboriousLayouChallengePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise8\RelativePanelPage.xaml.cs">
+      <DependentUpon>RelativePanelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise9\SplitPanelPage.xaml.cs">
+      <DependentUpon>SplitPanelPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise13\FinancialPage.xaml.cs">
+      <DependentUpon>FinancialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise13\FoodPage.xaml.cs">
+      <DependentUpon>FoodPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise11\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise11\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Excercise11\Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -130,6 +276,47 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1.png" />
+    <Content Include="Assets\10.png" />
+    <Content Include="Assets\11.png" />
+    <Content Include="Assets\12.png" />
+    <Content Include="Assets\13.png" />
+    <Content Include="Assets\2.png" />
+    <Content Include="Assets\3.png" />
+    <Content Include="Assets\4.png" />
+    <Content Include="Assets\5.png" />
+    <Content Include="Assets\6.png" />
+    <Content Include="Assets\7.png" />
+    <Content Include="Assets\8.png" />
+    <Content Include="Assets\9.png" />
+    <Content Include="Assets\background.jpg" />
+    <Content Include="Assets\coffee-icon.png" />
+    <Content Include="Assets\color-logo.png" />
+    <Content Include="Assets\complete-icon.png" />
+    <Content Include="Assets\donut-icon.png" />
+    <Content Include="Assets\dummy.jfif" />
+    <Content Include="Assets\female-01.png" />
+    <Content Include="Assets\female-02.png" />
+    <Content Include="Assets\female-03.png" />
+    <Content Include="Assets\Financial.png" />
+    <Content Include="Assets\Financial1.png" />
+    <Content Include="Assets\Financial2.png" />
+    <Content Include="Assets\Financial3.png" />
+    <Content Include="Assets\Financial4.png" />
+    <Content Include="Assets\Financial5.png" />
+    <Content Include="Assets\Food.png" />
+    <Content Include="Assets\Food1.png" />
+    <Content Include="Assets\Food2.png" />
+    <Content Include="Assets\Food3.png" />
+    <Content Include="Assets\Food4.png" />
+    <Content Include="Assets\Food5.png" />
+    <Content Include="Assets\male-01.png" />
+    <Content Include="Assets\male-02.png" />
+    <Content Include="Assets\male-03.png" />
+    <Content Include="Assets\schedule-icon.png" />
+    <Content Include="Assets\Tibbles.jpg" />
+    <Content Include="Assets\ticket.jpg" />
+    <Content Include="Assets\white-logo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -144,7 +331,203 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Excercise10\XAMLControlsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise11\NavigationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise12\HamburgerNavigationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise13\HamburgerNavigationPageChallenge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise14\MoreXAMLControlParts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise15\CanvasPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise16\Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise16\XAMLStylesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise17\XAMLThemeResource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise18\CoffeePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise18\CompletePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise18\DonutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise18\SchedulePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise18\StupedousStyleChallengePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise19\VisualStateManagerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise1\HelloWorldPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise20\AdaptiveLayoutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise21\DataBindingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise22\DataTemplatePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise22\ObservableCollectionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise23\AdeptlyAdaptiveChallengePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise23\NewsItemDataTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise24\DragAndDropPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise25\LazyLoadingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise26\CustomPanelPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise27\FilePickerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise28\VariableSizedWrapGridPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise29\DataForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise29\MenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise2\ProceduralComponentCreation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise30\ControlTemplatePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise31\StateTriggersPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise32\NotifyPropertyChangedPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise33\DependencyPropertyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise33\User Controls\Form.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise34\TemplatedControlPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise3\GridPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise4\StackPanelPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise5\LaudableLayoutChallengePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise6\LegendaryLayoutChallengePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise7\LaboriousLayouChallengePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise8\RelativePanelPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise9\SplitPanelPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise13\FinancialPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise13\FoodPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Excercise11\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise11\Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Excercise11\Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -153,7 +536,16 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI">
+      <Version>7.1.3</Version>
+    </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UWP SoundBoard">
+      <HintPath>..\..\UWP SoundBoard\UWP SoundBoard\obj\x64\Debug\UWP SoundBoard.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
