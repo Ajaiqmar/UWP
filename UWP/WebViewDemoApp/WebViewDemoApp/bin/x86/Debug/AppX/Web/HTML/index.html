@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var ctrlLock = false;
+        document.addEventListener("keydown", e => {
+            if (e.ctrlKey == true) {
+                ctrlLock = !ctrlLock;
+            }
+            else if (e.keyCode == 83 && ctrlLock) {
+                window.chrome.webview.postMessage("Saved");
+            }
+        });
+    </script>
+</head>
+<body>
+    <label for="NameInputField">Name :</label>
+    <input id="NameInputField" type="text" Margin="0,0,30,0" required/>
+    <h1 id="Result"></h1>
+</body>
+</html>
